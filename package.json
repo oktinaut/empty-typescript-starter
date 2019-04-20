@@ -1,0 +1,23 @@
+{
+    "name": "empty-typescript-starter",
+    "version": "1.0.0",
+    "description": "TypeScript Boilerplate using Webpack",
+    "main": "build/index.html",
+    "repository": "git@github.com:oktinaut/empty-typescript-starter.git",
+    "author": "Tim Okolowski <tim.okolowski@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "webpack-dev-server",
+        "build": "webpack"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "copy-webpack-plugin": "^4.6.0",
+        "ts-loader": "^5.3.3",
+        "typescript": "^3.2.4",
+        "webpack": "^4.29.0",
+        "webpack-cli": "^3.2.1",
+        "webpack-dev-server": "^3.1.14",
+        "webpack-fix-default-import-plugin": "^1.0.3"
+    }
+}
